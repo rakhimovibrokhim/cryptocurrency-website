@@ -50,8 +50,31 @@ img {
     cursor: pointer;
 }
 
+.form {
+    width: 100%;
+    display: flex;
+
+    .input {
+        width: 70%;
+        margin: 20px auto 0;
+        padding: 10px 20px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 16px;
+        background-color: #26272b;
+        border: 1px solid #fafafa;
+        color: #fafafa;
+    }
+}
+
 @media screen and (max-width:720px) {
     .hide-mobile {
         display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .form .input{
+        width: 85%;
     }
 }
