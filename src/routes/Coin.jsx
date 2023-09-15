@@ -1,9 +1,9 @@
 
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import DOMPurify from 'dompurify'
 import axios from 'axios'
 import './Coin.scss'
-import DOMPurify from 'dompurify'
 
 const Coin = () => {
 
